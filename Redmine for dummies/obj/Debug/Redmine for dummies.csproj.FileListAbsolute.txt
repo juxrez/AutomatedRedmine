@@ -1,0 +1,13 @@
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.exe.config
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.exe
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.pdb
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\WebDriver.dll
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\WebDriver.xml
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.MainWindow.resources
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.Properties.Resources.resources
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.csproj.GenerateResource.Cache
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.exe
+c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.pdb
+C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.csprojResolveAssemblyReference.cache
