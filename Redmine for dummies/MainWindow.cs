@@ -5,12 +5,15 @@ using Newtonsoft.Json;
 using System.IO;
 using Redmine_for_dummies.Models;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Redmine_for_dummies
 {
     public partial class MainWindow : Form
     {
         private IRedmineDriver driver;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -18,49 +21,68 @@ namespace Redmine_for_dummies
 
         private void LogButton_Click(object sender, EventArgs e)
         {
-            driver = new RedmineDriver();
+            var loginWindow = new LoginCredentialsWindows();
+            var dialogStatus = loginWindow.ShowDialog(this);
+           
+            if (!string.IsNullOrEmpty(loginWindow.EmailTextBox) || !string.IsNullOrEmpty(loginWindow.PasswordTextBox))
+            {
+                driver = new RedmineDriver(loginWindow.EmailTextBox, loginWindow.PasswordTextBox);
+                var successLogin = driver.Login();
 
-            driver.Login(txtEmail.Text, txtPassword.Text);
+            }
+            else
+                MessageBox.Show("Please enter your credentials");
         }
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-        
+            
         }
 
         private void Data_Click(object sender, EventArgs e)
         {
-            DialogResult result = openFileDialog.ShowDialog(); // Show the dialog.
-            if (result == DialogResult.OK) // Test result.
+            DialogResult result = openFileDialog.ShowDialog(); 
+            if (result == DialogResult.OK) 
             {
                 string filePath = openFileDialog.FileName;
                 try
                 {
                     var data = LoadJson(filePath);
-                    dataGridView1.DataSource = data;
+                    dataGridView.DataSource = data;
+                    LogButton.Enabled = true;
                 }
                 catch (IOException)
                 {
+                    MessageBox.Show("Something went wrong, please try again.");
                 }
             }
-
         }
 
         public List<ProjectActivity> LoadJson(string filePath)
         {
             var data = new List<ProjectActivity>();
-            using (StreamReader r = new StreamReader(filePath))//($@"C:\Users\ajuarez\Documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\TestData.json"))
+            using (StreamReader r = new StreamReader(filePath))
             {
                 string json = r.ReadToEnd();
                 data = JsonConvert.DeserializeObject<List<ProjectActivity>>(json);
             }
+
             return data;
+        }
+
+        private void chkBoxEdit_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chkBoxEdit.Checked == true)
+                dataGridView.Enabled = true;
+            else
+                dataGridView.Enabled = false;
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void MainWindow_FormClosed(object sender, FormClosedEventArgs e)
         {
-            dataGridView1.Enabled = true;
+            if (driver != null)
+                driver.Close();
         }
     }
 }

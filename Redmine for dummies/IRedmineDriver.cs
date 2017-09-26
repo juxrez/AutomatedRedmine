@@ -8,7 +8,8 @@ namespace Redmine_for_dummies
 {
     public interface IRedmineDriver
     {
-        void Login(string username, string password);
-        
+        bool Login();
+        void OpenProject();
+        void Close();
     }
 }

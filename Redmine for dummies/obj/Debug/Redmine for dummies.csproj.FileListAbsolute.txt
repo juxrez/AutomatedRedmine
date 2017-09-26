@@ -11,3 +11,4 @@ c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmi
 C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.csprojResolveAssemblyReference.cache
+C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.LoginCredentialsWindows.resources
