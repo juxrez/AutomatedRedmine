@@ -27,5 +27,14 @@ namespace Redmine_for_dummies
             PasswordTextBox = txtPassword.Text;
             Hide();
         }
+
+        private void txtPassword_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                LogButton_Click(null, null);
+            }
+        }
     }
 }

@@ -1,14 +1,106 @@
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.exe.config
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.exe
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.pdb
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\WebDriver.dll
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\WebDriver.xml
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.MainWindow.resources
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.Properties.Resources.resources
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.csproj.GenerateResource.Cache
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.exe
-c:\users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.pdb
-C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Newtonsoft.Json.dll
-C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.csprojResolveAssemblyReference.cache
-C:\Users\ajuarez\documents\visual studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.LoginCredentialsWindows.resources
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.exe.config
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.exe
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Redmine for dummies.pdb
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Build2.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Chat.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Common.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Core.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Dashboards.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Policy.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.SourceControl.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Test.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.TestManagement.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Work.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\WebDriver.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Build2.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Chat.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Common.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Core.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Dashboards.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.DistributedTask.Common.Contracts.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Policy.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.SourceControl.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Test.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.TestManagement.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.Work.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.VisualStudio.Services.Common.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Microsoft.VisualStudio.Services.WebApi.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\WebDriver.xml
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\cs\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\de\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\es\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\fr\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\it\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ja\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ko\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\pl\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\pt-BR\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ru\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\tr\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hans\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hant\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\cs\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\de\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\es\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\fr\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\it\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ja\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ko\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\pl\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\pt-BR\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ru\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\tr\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hans\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hant\Microsoft.TeamFoundation.Core.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\de\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\es\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\fr\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\it\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ja\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ko\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ru\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\tr\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hans\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hant\Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\cs\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\de\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\es\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\fr\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\it\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ja\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ko\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\pl\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ru\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\tr\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\cs\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\de\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\es\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\fr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\it\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ja\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ko\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\pl\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\ru\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\tr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.LoginCredentialsWindows.resources
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.MainWindow.resources
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine_for_dummies.Properties.Resources.resources
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.csproj.GenerateResource.Cache
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.exe
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.pdb
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.csprojResolveAssemblyReference.cache

@@ -52,6 +52,7 @@
             this.txtPassword.Size = new System.Drawing.Size(100, 20);
             this.txtPassword.TabIndex = 8;
             this.txtPassword.UseSystemPasswordChar = true;
+            this.txtPassword.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyUp);
             // 
             // email
             // 
@@ -67,7 +68,7 @@
             this.txtEmail.Location = new System.Drawing.Point(114, 79);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(100, 20);
-            this.txtEmail.TabIndex = 6;
+            this.txtEmail.TabIndex = 1;
             // 
             // LogButton
             // 
@@ -75,7 +76,7 @@
             this.LogButton.Name = "LogButton";
             this.LogButton.Size = new System.Drawing.Size(75, 23);
             this.LogButton.TabIndex = 5;
-            this.LogButton.Text = "Log";
+            this.LogButton.Text = "Enter";
             this.LogButton.UseVisualStyleBackColor = true;
             this.LogButton.Click += new System.EventHandler(this.LogButton_Click);
             // 
