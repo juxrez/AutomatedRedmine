@@ -131,8 +131,12 @@
     <Compile Include="MainWindow.Designer.cs">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\TfsIteration.cs" />
+    <Compile Include="Models\TfsIterationsResponse.cs" />
     <Compile Include="Models\TfsProject.cs" />
     <Compile Include="Models\TFSProjectResponse.cs" />
+    <Compile Include="Models\TFSTeam.cs" />
+    <Compile Include="Models\TFSTeamsResponse.cs" />
     <Compile Include="Models\WorkItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Models\ProjectActivity.cs" />

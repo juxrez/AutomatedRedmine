@@ -2,9 +2,9 @@
 
 namespace Redmine_for_dummies.Models
 {
-    public class TFSProjectResponse
+    public class TFSTeamsResponse
     {
         public int Count { get; set; }
-        public List<TfsProject> Value { get; set; }
+        public List<TFSTeam> Value { get; set; }
     }
 }

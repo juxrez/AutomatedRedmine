@@ -9,6 +9,7 @@ using Redmine_for_dummies.Models;
 
 namespace Redmine_for_dummies
 {
+    //TODO: Hide redmine URL
     public  class RedmineDriver : IRedmineDriver
     {
         public string RedmineUrl => "https:\\dev.unosquare.com";

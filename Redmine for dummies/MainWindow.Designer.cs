@@ -45,17 +45,17 @@
             // btnCredentials
             // 
             this.btnCredentials.Enabled = false;
-            this.btnCredentials.Location = new System.Drawing.Point(513, 338);
+            this.btnCredentials.Location = new System.Drawing.Point(420, 338);
             this.btnCredentials.Name = "btnCredentials";
             this.btnCredentials.Size = new System.Drawing.Size(75, 23);
             this.btnCredentials.TabIndex = 0;
-            this.btnCredentials.Text = "Credentials";
+            this.btnCredentials.Text = "Log Time";
             this.btnCredentials.UseVisualStyleBackColor = true;
             this.btnCredentials.Click += new System.EventHandler(this.LogButton_Click);
             // 
             // Data
             // 
-            this.Data.Location = new System.Drawing.Point(307, 338);
+            this.Data.Location = new System.Drawing.Point(108, 338);
             this.Data.Name = "Data";
             this.Data.Size = new System.Drawing.Size(75, 23);
             this.Data.TabIndex = 6;
@@ -93,7 +93,7 @@
             // 
             // btnTFS
             // 
-            this.btnTFS.Location = new System.Drawing.Point(104, 338);
+            this.btnTFS.Location = new System.Drawing.Point(420, 71);
             this.btnTFS.Name = "btnTFS";
             this.btnTFS.Size = new System.Drawing.Size(75, 23);
             this.btnTFS.TabIndex = 10;
@@ -103,26 +103,28 @@
             // 
             // btnGetTeams
             // 
-            this.btnGetTeams.Location = new System.Drawing.Point(198, 71);
+            this.btnGetTeams.Enabled = false;
+            this.btnGetTeams.Location = new System.Drawing.Point(189, 71);
             this.btnGetTeams.Name = "btnGetTeams";
             this.btnGetTeams.Size = new System.Drawing.Size(75, 23);
             this.btnGetTeams.TabIndex = 12;
-            this.btnGetTeams.Text = "Projects";
+            this.btnGetTeams.Text = "Get Teams";
             this.btnGetTeams.UseVisualStyleBackColor = true;
+            this.btnGetTeams.Click += new System.EventHandler(this.btnGetTeams_Click);
             // 
             // comboProjects
             // 
             this.comboProjects.FormattingEnabled = true;
-            this.comboProjects.Location = new System.Drawing.Point(62, 71);
+            this.comboProjects.Location = new System.Drawing.Point(62, 73);
             this.comboProjects.Name = "comboProjects";
             this.comboProjects.Size = new System.Drawing.Size(121, 21);
             this.comboProjects.TabIndex = 14;
-            this.comboProjects.SelectedIndexChanged += new System.EventHandler(this.comboProjects_SelectedIndexChanged);
+            this.comboProjects.DataSourceChanged += new System.EventHandler(this.comboProjects_DataSourceChanged);
             // 
             // comboTeams
             // 
             this.comboTeams.FormattingEnabled = true;
-            this.comboTeams.Location = new System.Drawing.Point(293, 71);
+            this.comboTeams.Location = new System.Drawing.Point(293, 73);
             this.comboTeams.Name = "comboTeams";
             this.comboTeams.Size = new System.Drawing.Size(121, 21);
             this.comboTeams.TabIndex = 16;

@@ -1,15 +1,10 @@
 ﻿using System;
 using System.Windows.Forms;
-using Newtonsoft;
 using Newtonsoft.Json;
 using System.IO;
 using Redmine_for_dummies.Models;
 using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
 using Microsoft.VisualStudio.Services.Common;
-using Microsoft.TeamFoundation.SourceControl.WebApi;
-using Microsoft.VisualStudio.Services.WebApi;
 using Microsoft.TeamFoundation.WorkItemTracking.WebApi.Models;
 using Microsoft.TeamFoundation.WorkItemTracking.WebApi;
 using System.Linq;
@@ -74,7 +69,7 @@ namespace Redmine_for_dummies
                 }
                 catch (IOException)
                 {
-                    MessageBox.Show("Something went wrong, please try again.","Error", MessageBoxButtons.OK);
+                    MessageBox.Show("Something went wrong, please try again.", "Error", MessageBoxButtons.OK);
                 }
             }
         }
@@ -106,24 +101,44 @@ namespace Redmine_for_dummies
                 driver.Close();
         }
 
-        private void btnTFS_Click(object sender, EventArgs e)
+        //ToDo: figure out the current iteration and project and Token
+        private async void btnTFS_Click(object sender, EventArgs e)
         {
-            
-            Uri uri = new Uri("https://bofaz.visualstudio.com/OnLine%20Banking/UDB_Forms_Docs/");
+            Uri uri = new Uri("https://bofaz.visualstudio.com/");
             string personalAccessToken = "bokutsf6txhkvv3dikofobrjys6eq4jp5einq47mkqup6mk2cy6q";
-            string project = "OnLine Banking";
             VssBasicCredential credentials = new VssBasicCredential("", personalAccessToken);
-            string iteration = @"OnLine Banking\UDB-30 (09.18-10.01)";
+            var iteration = string.Empty;
+            var team = (TFSTeam)comboTeams.SelectedItem;
+            var project = (TfsProject)comboProjects.SelectedItem;
+            var tokenString = Convert.ToBase64String(
+                        System.Text.Encoding.ASCII.GetBytes(
+                            string.Format("{0}:{1}", "", personalAccessToken)));
 
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Add(
+                    new MediaTypeWithQualityHeaderValue("application/json"));
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", tokenString);
+
+                using (HttpResponseMessage response = client.GetAsync(
+                               $"{uri.ToString()}{project.Id}/{team.Id}/_apis/work/teamsettings/iterations").Result)
+                {
+                    response.EnsureSuccessStatusCode();
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    var iterations = JsonConvert.DeserializeObject<TfsIterationsResponse>(responseBody);
+                    iteration = iterations.Value.LastOrDefault().Path;
+                }
+            }
             Wiql wiql = new Wiql()
             {
-                Query = "Select [System.State], [System.Title] " +
+                Query = "Select [System.State], [System.Title], [System.Id]" +
                       "From WorkItems " +
-                      "WHERE [System.TeamProject] = 'OnLine Banking' " +
+                      "WHERE [System.TeamProject] = '" + project.Name + "' " +
                       "AND [System.IterationPath] = '" + iteration + "' " +
                       "AND [System.AssignedTo] = @Me " 
-                      
             };
+
             using (WorkItemTrackingHttpClient workItemTrackingHttpClient = new WorkItemTrackingHttpClient(uri, credentials))
             {
                 //execute the query to get the list of work items in the results
@@ -165,8 +180,6 @@ namespace Redmine_for_dummies
 
                     dataGridView.DataSource = items;
                 }
-
-                //return null;
             }
 
         }
@@ -191,22 +204,46 @@ namespace Redmine_for_dummies
                     {
                         response.EnsureSuccessStatusCode();
                         string responseBody = await response.Content.ReadAsStringAsync();
+
                         var projects = JsonConvert.DeserializeObject<TFSProjectResponse>(responseBody);
-                        var projectNames = new List<string>();
-                        foreach (var p in projects.value)
-                        {
-                            projectNames.Add(p.name);
-                        }
-                        comboProjects.DataSource = projectNames;
+                        comboProjects.DataSource = projects.Value;
+                        comboProjects.DisplayMember = "Name";
                     }
                 }
             }
         }
-        //TODO find seleced project in combo box
-        private void comboProjects_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void comboProjects_DataSourceChanged(object sender, EventArgs e)
         {
-            var s = 1;
-            
+            var x = comboProjects.SelectedItem;
+            btnGetTeams.Enabled = true;
+        }
+
+        private async void btnGetTeams_Click(object sender, EventArgs e)
+        {
+            var project = (TfsProject) comboProjects.SelectedItem;
+            var personalaccesstoken = "bokutsf6txhkvv3dikofobrjys6eq4jp5einq47mkqup6mk2cy6q";
+            var tokenString = Convert.ToBase64String(
+                        System.Text.Encoding.ASCII.GetBytes(
+                            string.Format("{0}:{1}", "", personalaccesstoken)));
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Add(
+                    new MediaTypeWithQualityHeaderValue("application/json"));
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", tokenString);
+                using (HttpResponseMessage response = client.GetAsync(
+                              $"https://bofaz.visualstudio.com/_apis/projects/{project.Id}/teams?%24top=500&%24skip=0").Result)
+                {
+                    response.EnsureSuccessStatusCode();
+                    string responseBody = await response.Content.ReadAsStringAsync();
+
+                    var teams = JsonConvert.DeserializeObject<TFSTeamsResponse>(responseBody);
+                    comboTeams.DataSource = teams.Value;
+                    comboTeams.DisplayMember = "Name";
+
+                }
+            }
         }
     }
 }
