@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnCredentials = new System.Windows.Forms.Button();
             this.Data = new System.Windows.Forms.Button();
             this.dataGridView = new System.Windows.Forms.DataGridView();
@@ -39,7 +40,10 @@
             this.comboTeams = new System.Windows.Forms.ComboBox();
             this.btnToken = new System.Windows.Forms.Button();
             this.txtToken = new System.Windows.Forms.TextBox();
+            this.menuStripManageRow = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+            this.menuStripManageRow.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCredentials
@@ -65,13 +69,16 @@
             // 
             // dataGridView
             // 
-            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.AllowDrop = true;
+            this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView.Enabled = false;
             this.dataGridView.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView.Location = new System.Drawing.Point(64, 133);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.Size = new System.Drawing.Size(563, 199);
             this.dataGridView.TabIndex = 7;
+            this.dataGridView.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView_CellMouseDown);
+            this.dataGridView.UserDeletedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.dataGridView_UserDeletedRow);
             // 
             // openFileDialog
             // 
@@ -146,6 +153,19 @@
             this.txtToken.Size = new System.Drawing.Size(352, 20);
             this.txtToken.TabIndex = 17;
             // 
+            // menuStripManageRow
+            // 
+            this.menuStripManageRow.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.deleteToolStripMenuItem});
+            this.menuStripManageRow.Name = "menuStripManageRow";
+            this.menuStripManageRow.Size = new System.Drawing.Size(153, 48);
+            // 
+            // deleteToolStripMenuItem
+            // 
+            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.deleteToolStripMenuItem.Text = "Delete";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -166,6 +186,7 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainWindow_FormClosed);
             this.Load += new System.EventHandler(this.MainWindow_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            this.menuStripManageRow.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,6 +205,8 @@
         private System.Windows.Forms.ComboBox comboTeams;
         private System.Windows.Forms.Button btnToken;
         private System.Windows.Forms.TextBox txtToken;
+        private System.Windows.Forms.ContextMenuStrip menuStripManageRow;
+        private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
     }
 }
 

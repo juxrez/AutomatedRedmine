@@ -104,3 +104,5 @@ C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmi
 C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.exe
 C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.pdb
 C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\obj\Debug\Redmine for dummies.csprojResolveAssemblyReference.cache
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\WebDriver.Support.dll
+C:\Users\ajuarez\Documents\Visual Studio 2015\Projects\Redmine for dummies\Redmine for dummies\bin\Debug\WebDriver.Support.xml

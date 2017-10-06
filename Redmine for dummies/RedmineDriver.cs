@@ -2,10 +2,9 @@
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Redmine_for_dummies.Models;
+using OpenQA.Selenium.Support.UI;
+using Redmine_for_dummies.Catalog;
 
 namespace Redmine_for_dummies
 {
@@ -16,13 +15,15 @@ namespace Redmine_for_dummies
         public IWebDriver WebDriver = new ChromeDriver();
         public string  Username { get; set; }
         public string Password { get; set; }
+        public string IssueNumber { get; set; }
         public List<ProjectActivity> ProjectActivities { get; set; }
 
-        public RedmineDriver(string username, string password, List<ProjectActivity> activities)
+        public RedmineDriver(string username, string password, List<ProjectActivity> activities, string issueNumber)
         {
             WebDriver.Url = RedmineUrl;
             Username = username;
             Password = password;
+            IssueNumber = issueNumber;
             ProjectActivities = activities; 
         }
 
@@ -33,9 +34,9 @@ namespace Redmine_for_dummies
             WebDriver.FindElement(By.Name("login")).Click();
 
             if (string.Equals(WebDriver.PageSource, "https://dev.unosquare.com/redmine/"))
-                return true; 
+                return true;
 
-            return false;
+            throw new Exception("Invalid Credentials");
         }
 
         public bool OpenProject(string issueNumber)
@@ -49,12 +50,19 @@ namespace Redmine_for_dummies
         }
         public void Close()
         {
+            WebDriver.Close();
             WebDriver.Quit();
         }
 
-        public bool LogEntry()
+        public bool LogEntry(ProjectActivity activity)
         {
-            WebDriver.FindElement(By.Id("time_entry_spent_on")).SendKeys("10/25/2017");
+            var s = Enum.GetName(typeof(Activity), activity.Activity);
+            WebDriver.FindElement(By.Id("time_entry_hours")).SendKeys(activity.Hours.ToString());
+            WebDriver.FindElement(By.Id("time_entry_spent_on")).SendKeys(activity.Date.ToString("MM/DD/YYYY"));
+            WebDriver.FindElement(By.Id("time_entry_comments")).SendKeys(activity.Comment);
+            var activityDrop = WebDriver.FindElement(By.Id("time_entry_activity_id"));
+            var selectActivity = new SelectElement(activityDrop);
+            selectActivity.SelectByText(s);
             return true;
         }
 
@@ -63,16 +71,10 @@ namespace Redmine_for_dummies
             if (ProjectActivities == null || ProjectActivities.Count == 0)
                 throw new Exception("No data to entry");
 
-            try
+            OpenProject(IssueNumber);
+            foreach(var activity in ProjectActivities)
             {
-                var successLogin = Login();
-                var openProject = OpenProject(ProjectActivities.FirstOrDefault().IssueNumber);
-                var logEntry = LogEntry();
-            }
-            catch (Exception)
-            {
-
-                throw;
+                LogEntry(activity);     
             }
             
         }

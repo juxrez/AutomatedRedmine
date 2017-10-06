@@ -5,12 +5,5 @@
     "Hours": 3,
     "Comment": "Test Task 1",
     "Activity": 3
-  },
-  {
-    "IssueNumber": "31330",
-    "Date": "9/22/2017",
-    "Hours": 5,
-    "Comment": "Test Task 2",
-    "Activity": 6
   }
 ]

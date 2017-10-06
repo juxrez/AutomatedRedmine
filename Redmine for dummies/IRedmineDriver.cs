@@ -1,4 +1,6 @@
 ﻿
+using Redmine_for_dummies.Models;
+
 namespace Redmine_for_dummies
 {
     public interface IRedmineDriver
@@ -7,6 +9,6 @@ namespace Redmine_for_dummies
         bool Login();
         bool OpenProject(string issueNumber);
         void Close();
-        bool LogEntry();
+        bool LogEntry(ProjectActivity activity);
     }
 }
